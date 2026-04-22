@@ -30,6 +30,20 @@ const CATEGORIES = {
       { id: 'g4', name: 'Amul Butter 100g', emoji: '🧈' },
       { id: 'g5', name: 'Bread Loaf', emoji: '🍞' },
       { id: 'g6', name: 'Eggs (12 pack)', emoji: '🥚' },
+      { id: 'g7', name: 'Wheat Flour', emoji: '🥚' },
+      { id: 'g8', name: 'Maida', emoji: '🥚' },
+      { id: 'g9', name: 'Rajma', emoji: '🥚' },
+      { id: 'g10', name: 'Channa Dal', emoji: '🥚' }, 
+      { id: 'g11', name: 'Cooking Oil', emoji: '🥚' },
+      { id: 'g12', name: 'Ghee', emoji: '🥚' }
+      { id: 'g13', name: 'Salt', emoji: '🥚' },
+      { id: 'g14', name: 'Sugar', emoji: '🥚' },
+      { id: 'g15', name: 'Tea Powder', emoji: '🥚' },
+      { id: 'g16', name: 'Coffee Powder', emoji: '🥚' },
+      { id: 'g17', name: 'Potato', emoji: '🥚' }
+      { id: 'g18', name: 'Onion', emoji: '🥚' },
+      { id: 'g19', name: 'Tomato', emoji: '🥚' },
+      { id: 'g20', name: 'Green Chilly', emoji: '🥚' },       
     ]
   },
   food: {
@@ -41,6 +55,20 @@ const CATEGORIES = {
       { id: 'f4', name: 'Chicken Burger', emoji: '🍔' },
       { id: 'f5', name: 'Fresh Juice 250ml', emoji: '🧃' },
       { id: 'f6', name: 'Samosa (4 pcs)', emoji: '🫓' },
+      { id: 'f7', name: 'French Fries', emoji: '🫓' },
+      { id: 'f8', name: 'Rumali Roti', emoji: '🫓' },
+      { id: 'f9', name: 'Butter Naan', emoji: '🫓' },
+      { id: 'f10', name: 'Hakka Noodles', emoji: '🫓' },
+      { id: 'f11', name: 'Pani Puri', emoji: '🫓' },
+      { id: 'f12', name: 'Sandwich', emoji: '🫓' },
+      { id: 'f13', name: 'Gulab Jamun', emoji: '🫓' },
+      { id: 'f14', name: 'Ice Cream', emoji: '🫓' },
+      { id: 'f15', name: 'Brownie', emoji: '🫓' },
+      { id: 'f16', name: 'Gobi Manchurian', emoji: '🫓' },
+      { id: 'f17', name: 'Pav Bhaji', emoji: '🫓' },
+      { id: 'f18', name: 'Cheesecake', emoji: '🫓' },
+      { id: 'f19', name: 'Fruit Salad', emoji: '🫓' },
+      { id: 'f20', name: 'Tomato Soup', emoji: '🫓' },       
     ]
   },
   toys: {
@@ -50,6 +78,17 @@ const CATEGORIES = {
       { id: 't2', name: 'Teddy Bear', emoji: '🧸' },
       { id: 't3', name: 'Remote Car', emoji: '🚗' },
       { id: 't4', name: 'Board Game', emoji: '🎲' },
+      { id: 't5', name: 'Number Blocks', emoji: '🎲' },
+      { id: 't6', name: 'Badminton Set', emoji: '🎲' },
+      { id: 't7', name: 'Cricket Set', emoji: '🎲' },
+      { id: 't8', name: 'Doll House', emoji: '🎲' },
+      { id: 't9', name: 'Snake and Ladder', emoji: '🎲' },
+      { id: 't10', name: 'Clay Modelling Set', emoji: '🎲' },
+      { id: 't11', name: 'Walkie Talkie Toy', emoji: '🎲' },
+      { id: 't12', name: 'Rubik's Cube', emoji: '🎲' },
+      { id: 't13', name: '', emoji: '🎲' },
+      { id: 't14', name: 'Board Game', emoji: '🎲' },
+       
     ]
   },
   clothing: {
