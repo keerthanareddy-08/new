@@ -35,12 +35,12 @@ const CATEGORIES = {
       { id: 'g9', name: 'Rajma', emoji: '🥚' },
       { id: 'g10', name: 'Channa Dal', emoji: '🥚' }, 
       { id: 'g11', name: 'Cooking Oil', emoji: '🥚' },
-      { id: 'g12', name: 'Ghee', emoji: '🥚' }
+      { id: 'g12', name: 'Ghee', emoji: '🥚' },
       { id: 'g13', name: 'Salt', emoji: '🥚' },
       { id: 'g14', name: 'Sugar', emoji: '🥚' },
       { id: 'g15', name: 'Tea Powder', emoji: '🥚' },
       { id: 'g16', name: 'Coffee Powder', emoji: '🥚' },
-      { id: 'g17', name: 'Potato', emoji: '🥚' }
+      { id: 'g17', name: 'Potato', emoji: '🥚' },
       { id: 'g18', name: 'Onion', emoji: '🥚' },
       { id: 'g19', name: 'Tomato', emoji: '🥚' },
       { id: 'g20', name: 'Green Chilly', emoji: '🥚' },       
@@ -86,8 +86,8 @@ const CATEGORIES = {
       { id: 't10', name: 'Clay Modelling Set', emoji: '🎲' },
       { id: 't11', name: 'Walkie Talkie Toy', emoji: '🎲' },
       { id: 't12', name: 'Rubik's Cube', emoji: '🎲' },
-      { id: 't13', name: '', emoji: '🎲' },
-      { id: 't14', name: 'Board Game', emoji: '🎲' },
+      { id: 't13', name: 'Musical Toy', emoji: '🎲' },
+      { id: 't14', name: 'Origami Kit ', emoji: '🎲' },
        
     ]
   },
@@ -97,7 +97,22 @@ const CATEGORIES = {
       { id: 'cl1', name: 'Cotton Kurta', emoji: '👘' },
       { id: 'cl2', name: 'Denim Jeans', emoji: '👖' },
       { id: 'cl3', name: 'Sneakers', emoji: '👟' },
-      { id: 'cl4', name: 'Summer Dress', emoji: '👗' },
+      { id: 'cl4', name: 'Sweatshirts', emoji: '👗' },
+      { id: 'cl5', name: 'T-shirts', emoji: '👗' },
+      { id: 'cl6', name: 'Shirts', emoji: '👗' },
+      { id: 'cl7', name: 'Trousers', emoji: '👗' },
+      { id: 'cl8', name: 'Dhoti', emoji: '👗' },
+      { id: 'cl9', name: 'Jacket', emoji: '👗' },
+      { id: 'cl10', name: 'Frock', emoji: '👗' },
+      { id: 'cl11', name: 'Suit', emoji: '👗' },
+      { id: 'cl12', name: 'Saree', emoji: '👗' },
+      { id: 'cl13', name: 'Tie', emoji: '👗' },
+      { id: 'cl14', name: 'Night Suit', emoji: '👗' },
+      { id: 'cl15', name: 'Lehenga', emoji: '👗' },
+      { id: 'cl16', name: 'Scarf', emoji: '👗' },
+      { id: 'cl18', name: 'Belt', emoji: '👗' },
+      { id: 'cl19', name: 'Undergarments', emoji: '👗' },
+      { id: 'cl20', name: 'Gym Wear', emoji: '👗' },       
     ]
   },
   pharmacy: {
@@ -107,6 +122,17 @@ const CATEGORIES = {
       { id: 'p2', name: 'Vitamin C Tablets', emoji: '🍊' },
       { id: 'p3', name: 'Hand Sanitizer 200ml', emoji: '🧴' },
       { id: 'p4', name: 'Band-Aid Pack', emoji: '🩹' },
+      { id: 'p5', name: 'Citirizine', emoji: '🩹' }, 
+      { id: 'p6', name: 'Nasal Spray', emoji: '🩹' }, 
+      { id: 'p7', name: 'Vapor Rub', emoji: '🩹' }, 
+      { id: 'p8', name: 'Cough Syrup', emoji: '🩹' }, 
+      { id: 'p9', name: 'Cotton', emoji: '🩹' }, 
+      { id: 'p10', name: 'Antiseptic Liquid', emoji: '🩹' }, 
+      { id: 'p11', name: 'Thermometer', emoji: '🩹' }, 
+      { id: 'p12', name: 'Face Mask', emoji: '🩹' }, 
+      { id: 'p13', name: 'Calcium Tablets', emoji: '🩹' }, 
+      { id: 'p14', name: 'Antiseptic Cream', emoji: '🩹' }, 
+      { id: 'p15', name: 'Burn Cream', emoji: '🩹' },    
     ]
   },
   electronics: {
@@ -116,6 +142,22 @@ const CATEGORIES = {
       { id: 'e2', name: 'Wireless Earbuds', emoji: '🎧' },
       { id: 'e3', name: 'Power Bank 10000mAh', emoji: '🔋' },
       { id: 'e4', name: 'Phone Case', emoji: '📱' },
+      { id: 'e5', name: 'Smart Phone', emoji: '📱' },
+      { id: 'e6', name: 'Ear Phones', emoji: '📱' },
+      { id: 'e7', name: 'Laptop', emoji: '📱' },
+      { id: 'e8', name: 'Computer', emoji: '📱' },
+      { id: 'e9', name: 'Mouse', emoji: '📱' },
+      { id: 'e10', name: 'Keyboard', emoji: '📱' },
+      { id: 'e11', name: 'USB Drive', emoji: '📱' },
+      { id: 'e12', name: 'Bluetooth Speaker', emoji: '📱' },
+      { id: 'e13', name: 'Digital Camera', emoji: '📱' },
+      { id: 'e14', name: 'Smart Watch', emoji: '📱' },
+      { id: 'e15', name: 'VR Headset', emoji: '📱' },
+      { id: 'e16', name: 'Refrigerator', emoji: '📱' },
+      { id: 'e17', name: 'Washing Machine', emoji: '📱' },
+      { id: 'e18', name: 'Microwave Oven', emoji: '📱' },
+      { id: 'e19', name: 'Electric Kettle', emoji: '📱' },
+      { id: 'e20', name: 'Mixer Grinder', emoji: '📱' },
     ]
   }
 };
@@ -124,6 +166,10 @@ const STORES_DATA = [
   { name: 'Reliance Smart', distance: '0.4 km', delivery: '15 min', rating: '4.5' },
   { name: 'D-Mart', distance: '0.9 km', delivery: '22 min', rating: '4.3' },
   { name: 'More Supermarket', distance: '1.2 km', delivery: '28 min', rating: '4.1' },
+  { name: 'FirstCry', distance: '1.4 km', delivery: '35 min', rating: '4.0' },
+  { name: 'IndiaMART', distance: '0.5 km', delivery: '20 min', rating: '4.8' },
+  { name: 'Pepperfry', distance: '2.0 km', delivery: '45 min', rating: '3.9' },
+   
 ];
 
 function generateStoreOffers(itemName) {
@@ -145,19 +191,23 @@ function generateStoreOffers(itemName) {
 
 // Store owner sample products
 let soProducts = [
-  { id: 'sp1', name: 'Basmati Rice 1kg', price: 120, stock: 45, img: '', emoji: '🍚' },
-  { id: 'sp2', name: 'Toor Dal 500g', price: 75, stock: 8, img: '', emoji: '🫘' },
-  { id: 'sp3', name: 'Sunflower Oil 1L', price: 160, stock: 0, img: '', emoji: '🛢️' },
-  { id: 'sp4', name: 'Amul Butter 100g', price: 55, stock: 30, img: '', emoji: '🧈' },
+  { id: 'sp1', name: 'Basmati Rice 1kg', price: 120, stock: 45, img: 'https://tajfoodstore.com/wp-content/uploads/2022/12/basmathi_rice-1.jpg', emoji: '🍚' },
+  { id: 'sp2', name: 'Toor Dal 500g', price: 75, stock: 8, img: 'https://www.jiomart.com/images/product/original/491187263/good-life-toor-dal-500-g-product-images-o491187263-p491187263-2-202204261915.jpg?im=Resize=(420,420)', emoji: '🫘' },
+  { id: 'sp3', name: 'Sunflower Oil 1L', price: 160, stock: 0, img: 'https://houseofveda.com/cdn/shop/files/Sunfloweroil-2.jpg?v=1769799063 ', emoji: '🛢️' },
+  { id: 'sp4', name: 'Amul Butter 100g', price: 55, stock: 30, img: 'https://m.media-amazon.com/images/I/61FzvpdoS6L._AC_UF894,1000_QL80_.jpg', emoji: '🧈' }, 
+  { id: 'sp5', name: 'Maida 500g', price: 35, stock: 28, img: 'https://sindirasupermarket.com/wp-content/uploads/2020/06/nila-maida.jpg', emoji: '🧈' },
+  { id: 'sp6', name: 'Breadloaf', price: 30, stock: 25, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkAiBb7cmj3FfaiVkASNv5s-vafHfLbzY1vw&s', emoji: '🧈' },
+  { id: 'sp7', name: 'Cooking Oil 1L', price: 129, stock: 50, img: 'https://images.jdmagicbox.com/quickquotes/images_main/transparent-cooking-oil-pet-bottle-1-litre-2221316332-j7ugo7ob.jpg', emoji: '🧈' },
+  { id: 'sp8', name: 'Tea Powder 500g', price: 99, stock: 15, img: 'https://jayshankarlamboti.com/cdn/shop/files/TeaPowderCover.png?v=1749126377', emoji: '🧈' },   
 ];
 
 // Store owner sample orders
 const soOrders = [
   { id: 'o1', item: 'Basmati Rice 1kg', emoji: '🍚', customer: 'Rahul Sharma', time: '09:14 AM', price: 120, status: 'delivered', date: new Date() },
   { id: 'o2', item: 'Toor Dal 500g', emoji: '🫘', customer: 'Priya Nair', time: '10:30 AM', price: 75, status: 'processing', date: new Date() },
-  { id: 'o3', item: 'Amul Butter 100g', emoji: '🧈', customer: 'Arjun Patel', time: '11:05 AM', price: 55, status: 'pending', date: new Date() },
-  { id: 'o4', item: 'Sunflower Oil 1L', emoji: '🛢️', customer: 'Sneha Reddy', time: '08:50 AM', price: 160, status: 'delivered', date: new Date(Date.now() - 864e5 * 2) },
-  { id: 'o5', item: 'Bread Loaf', emoji: '🍞', customer: 'Kiran Kumar', time: '02:10 PM', price: 40, status: 'pending', date: new Date(Date.now() - 864e5 * 5) },
+  { id: 'o3', item: 'Amul Butter 100g', emoji: '🧈', customer: 'Arjun Deshmukh', time: '11:05 AM', price: 55, status: 'pending', date: new Date() },
+  { id: 'o4', item: 'Sunflower Oil 1L', emoji: '🛢️', customer: 'Shriya', time: '08:50 AM', price: 160, status: 'delivered', date: new Date(Date.now() - 864e5 * 2) },
+  { id: 'o5', item: 'Bread Loaf', emoji: '🍞', customer: 'Meghana', time: '02:10 PM', price: 40, status: 'pending', date: new Date(Date.now() - 864e5 * 5) },
 ];
 
 // ============================================
